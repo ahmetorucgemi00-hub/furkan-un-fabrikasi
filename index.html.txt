@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyüp Oğulları Furkan Un Fabrikası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div style="display:flex; flex-direction:column; align-items:center; gap:10px;">
+        <!-- Logo eklemek istersen buraya ekleyebilirsin -->
+        <h1>Eyüp Oğulları Furkan Un Fabrikası</h1>
+        <p>Kaliteli Unun Güvencesi</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#hakkimizda">Hakkımızda</a>
+    <a href="#urunler">Ürünler</a>
+    <a href="#iletisim">İletişim</a>
+</nav>
+
+<section id="hakkimizda">
+    <h2>Hakkımızda</h2>
+    <p>
+        Eyüp Oğulları Furkan Un Fabrikası olarak yıllardır kaliteli ve güvenilir un üretimi yapmaktayız.
+        Modern üretim tesislerimiz ve hijyen standartlarımız ile müşterilerimize en iyi hizmeti sunuyoruz.
+    </p>
+</section>
+
+<section id="urunler" class="products">
+    <h2>Ürünlerimiz</h2>
+    <div class="product-box">
+        <div class="card">🌾 Ekmeklik Un</div>
+        <div class="card">🌾 Pastalık Un</div>
+        <div class="card">🌾 Böreklik Un</div>
+        <div class="card">🌾 Arpa Un</div>
+        <div class="card">🌾 Arpa ezmesi</div>
+    </div>
+    <a href="#iletisim" class="btn">Sipariş Ver</a>
+</section>
+
+<section id="iletisim">
+    <h2>İletişim</h2>
+    <p>📍 Adres: Yeşil Gölcük Yolu 1. Km, Tırhan Köyü / Niğde</p>
+    <p>📞 Telefon: 0534 668 20 01</p>
+    <p>📧 Email: info@furkanun.com</p>
+</section>
+
+<footer>
+    © 2026 Eyüp Oğulları Furkan Un Fabrikası - Tüm Hakları Saklıdır
+</footer>
+
+</body>
+</html>
